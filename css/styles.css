@@ -2,8 +2,12 @@
   display: none;
 }
 #form2{
-  float: right;
+
 }
 .result2{
+
+}
+.panel{
   float: right;
+  background-color: #cec9d4;
 }

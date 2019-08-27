@@ -13,19 +13,33 @@
 <body>
   <div class="container">
     <h1>Wecome to The Bank.</h1>
-    <form id= "form2">
-      <h2>Find Account.</h2>
-      <h5>Enter Account Id:</h5>
-      <input type="text" id="user-id" value="">
-      <button type="submit">Submit.</button>
+    <div class="panel">
+      <form id= "form2">
+        <div class="panel-heading"><h2>Find Account.</h2></div>
+        <h5>Enter Account Id:</h5>
+        <input type="text" id="user-id" value="">
+        <button id= "account-id" type="submit">Submit.</button>
+      </form>
+
+      <div class="result2">
+        <h3 id="customer-name"> </h3>
+      </div>
+    <div class="deposits-and-withdrawls">
+
+    <form id="deposit-withdrawl">
+      <h4>Deposit:</h4>
+      <input type="text" id="deposit">
+      <h4>Withdrawl Amount:</h4>
+      <input type="text" id="withdrawl" value="hi">
+      <button id="add-subtract" type="submit">Submit</button>
     </form>
-
-    <div class="result2">
-      <h3> </h3>
-
+    <div class="new-balance">
 
     </div>
-
+      <br>
+      <br>
+    </div>
+    </div>
 
       <form id="form">
         <div class="initial-deposit">
@@ -34,19 +48,13 @@
           <h3>Initial Deposit:</h3>
           <input type="text" id="initial-deposit" value="">
           </div>
-          <div class="deposits-and-withdrawls">
-          <h3>Deposit:</h3>
-          <input type="text" id="deposit" value="">
-          <h3>Withdrawl Amount:</h3>
-          <input type="text" id="withdrawl" value="">
+
         <br>
-        <br>
-        </div>
-        <br>
-        <button type="submit">Submit.</button>
+        <button id="new-customer" type="submit">Submit.</button>
       </form>
 
       <div class="result">
+        <h2> </h2>
 
       </div>
   </div>
