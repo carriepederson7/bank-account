@@ -1,6 +1,9 @@
 .deposits-and-withdrawls{
   display: none;
 }
-#find-user{
+#form2{
+  float: right;
+}
+.result2{
   float: right;
 }
