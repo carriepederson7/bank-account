@@ -1,6 +1,13 @@
 .deposits-and-withdrawls{
   display: none;
 }
-#find-user{
+#form2{
+
+}
+.result2{
+
+}
+.panel{
   float: right;
+  background-color: #cec9d4;
 }
